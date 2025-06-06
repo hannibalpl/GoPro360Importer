@@ -8,7 +8,6 @@ Obecnie: **zbiór notatek, testów i błędnych decyzji życiowych. Boże czemu 
 ## Status
 
 🟠   Publiczne repozytorium, ale na bardzo wczesnym etapie.  
-
 ⚠️   Kod jest brudnopisem, wiele rzeczy jeszcze nie działa lub działa nie tak, jak powinno.  
       Na razie mam dość, później pewnie do tego wrócę.
 👨‍🔧   Jeśli tu trafiłeś przypadkiem: nie oceniaj — każdy projekt kiedyś wyglądał jak chaos.
