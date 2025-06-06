@@ -12,7 +12,7 @@ Obecnie: **zbiór notatek, testów i błędnych decyzji życiowych. Boże czemu 
 ⚠️   Kod jest brudnopisem, wiele rzeczy jeszcze nie działa lub działa nie tak, jak powinno.  
       Na razie mam dość, później pewnie do tego wrócę.
       
-👨‍🔧   Jeśli tu trafiłeś przypadkiem: nie oceniaj — każdy projekt kiedyś wyglądał jak chaos.
+👨‍🔧   Jeśli tu trafiłeś przypadkiem: nie oceniaj — każdy projekt kiedyś wyglądał jak chaos. A ja na razie jestem w dupie. Pytanie tylko czy spodoba mi się to na tyle by się tu zacząć urządzać.
 
 ## Aktualne problemy:
 - Problem ze zdjęciami - przy generowaniu chamsko filmu .360 przez ffmpeg  wychodzi 180 stopniowe zdjęcie (chyba nawet 130*, dunno, coś ucina), a czemu? FFmpeg wyciąga tylko jeden strumień i to taki na jaki natrafi pierwszy.
