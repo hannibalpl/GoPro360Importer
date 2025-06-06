@@ -5,6 +5,8 @@ Docelowo: automatyczne przetwarzanie GPS i czasu, generowanie zdjęć 360 stopni
 Generalnie STREETVIEW ale na twoich materiałach.
 Obecnie: **zbiór notatek, testów i błędnych decyzji życiowych. Boże czemu to ciągnę...**
 
+
+
 ## Status
 
 🟠   Publiczne repozytorium, ale na bardzo wczesnym etapie.  
@@ -68,4 +70,5 @@ Zaimportuj do QGISa zawartość jako paczkę zip. Ot i dalej kombinuj. Mnie w to
     Nie pracuje nad tym na razie (06.2025) bo i tak mam problem z pierwszymi podpunktami więc to idzie na dalszy plan.
     Ten projekt to na razie notes z walki o sens robienia tego niż gotowe rozwiązanie.
     Ściągasz to na własne ryzyko. Nie odpowiadam za rwanie włosów z czupryny. 
+    // Tak, jak skończę to dopiszę autorów wszystkich bibliotek. Na razie nie mam do tego głowy tym bardziej że każda z tych bibliotek jest na githubie.
     
