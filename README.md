@@ -22,6 +22,8 @@ Obecnie: **zbiór notatek, testów i błędnych decyzji życiowych. Boże czemu 
   obrócony o 90* i leży jak ten po tamtym (boże... za co...). Obrócenie każdej klatki pali procesor. 
 - Konwersja 360->mov sprawia że film traci telemetrię, ale zyskuje 360. ALE: wciąż brak efektów przy konwersji. No nie idzie.
 - Przy okazji telemetrii wracamy do gpmf_parsera - ma wyciągać ją do pliku csv, ale nie umiem odpowiednio zbudować parseram i konwertera który przecież jest pisany w c oryginalnie.
+      
+  
 - TAK, MOŻEMY TO ROBIĆ ZA POMOCĄ APKI od GoPro, eksportować jak te neandertaluchy .360 do .mov, dalej przez strony online robić z telemetrii csv (głównie gps i czas) i dopiero na tak przygotowanej paczce pracować, ale chcę mieć narzędzie
   ,,Kliknij i zapomnij" w QGISie, gdzie zwykły użyszkodnik wybiera sobie z nagrań te swoje kilkadziesiąt filmów, klika ,,Konwertuj do GPKG" i za godzinę ma gotowe pół miasta w StreetView bo był na wycieczce z kamerką 360 stopni.
 - Patrzyłem na inne rozwiązania i biblioteki, pytałem tą trójkę debili (Copilot w VS'ie, Claude, ChatGPTv(ale copilot to chgpt w sumie), na Geminiego nawet nie patrze bo to debil wśród debili) ale zacinają się i stękają przy problemie
@@ -35,6 +37,7 @@ Obecnie: **zbiór notatek, testów i błędnych decyzji życiowych. Boże czemu 
 ## Cele projektu
 
 - [ ] Wyodrębnienie strumieni telemetrycznych z gps i czasem z pliku `.360` do .csv
+      ##wykorzystać **gopro2gpx**, daje komendą gopro2gpx -s -vvv samples/hero6.mp4 hero6 fajny csv (i co dalej?)
 - [ ] Scalenie 2 strumieni wideo (180stopni) z pliku .360 do jednego filmu .mov z dobrą jakością
 - [x] Pocięcie filmu na klatki w .jpeg
 - [x] Geotagowanie klatek wideo z danymi GPS
