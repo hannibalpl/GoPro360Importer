@@ -1,18 +1,7 @@
-<<<<<<< HEAD
 [general]
 name=GoPro360Importer
 description=Import 360° GoPro videos as geopackage layer of photos
-version=0.1
+version=0.0001
 qgisMinimumVersion=3.0
 author=Michał Krawczuk
-email=mikra33@gmail.com
-=======
-[general]
-name=GoPro360Importer
-description=Import 360° GoPro videos as geopackage layer of photos
-version=0.1
-qgisMinimumVersion=3.0
-author=Michał Krawczuk
-email=mikra33@gmail.com
->>>>>>> 20ecb62abf398cf1b723644dfbdf5bfce6de8521
-icon=icon.png
+email=
