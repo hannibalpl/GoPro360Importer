@@ -1,0 +1,3 @@
+LIBRARY gpmf_parser.cp312-mingw_x86_64_ucrt_gnu.pyd
+EXPORTS
+PyInit_gpmf_parser

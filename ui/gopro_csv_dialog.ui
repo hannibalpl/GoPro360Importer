@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GoproCsvDialog</class>
+ <widget class="QDialog" name="GoproCsvDialog">
+  <property name="windowTitle">
+   <string>GoPro CSV Extractor</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Wybierz plik wideo (.360):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="videoLineEdit"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="videoBrowseButton">
+     <property name="text">
+      <string>Przeglądaj...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Odległość próbkowania (m):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDoubleSpinBox" name="distanceSpinBox">
+     <property name="minimum">
+      <double>1.0</double>
+     </property>
+     <property name="maximum">
+      <double>100.0</double>
+     </property>
+     <property name="singleStep">
+      <double>1.0</double>
+     </property>
+     <property name="value">
+      <double>10.0</double>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Folder wyjściowy:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="outputLineEdit"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="outputBrowseButton">
+     <property name="text">
+      <string>Przeglądaj...</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="runButton">
+     <property name="text">
+      <string>Uruchom</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPlainTextEdit" name="logOutput">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
